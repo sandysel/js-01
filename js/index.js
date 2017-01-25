@@ -14,6 +14,11 @@ var userAge = Number(prompt('what is your age?'));
      document.write('please enter a number, numbskull');
  }
  else{
-    var nextAge = userAge + 1;
+    var nextAge = addOne(userAge);
     document.write('<br> soon you shall be ' + nextAge);
+ }
+ 
+ function addOne(num){
+     var result = num + 1;
+     return result;
  }
