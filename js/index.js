@@ -5,7 +5,7 @@
 //console.log(hello);
 
 var userName = prompt('What is your name?');
-var greet = 'Hello, /n' + userName;
+var greet = 'Hello, <br>' + userName + "!";
 document.write(greet);
 
 var userAge = Number(prompt('what is your age?'));
@@ -15,5 +15,5 @@ var userAge = Number(prompt('what is your age?'));
  }
  else{
     var nextAge = userAge + 1;
-    document.write('soon you shall be ' + nextAge);
+    document.write('<br> soon you shall be ' + nextAge);
  }
