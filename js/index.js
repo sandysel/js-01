@@ -4,5 +4,10 @@ var hello = 'Hello World';
 
 //console.log(hello);
 
-var username = prompt('What is your name?')
-document.write('Hello, /n", username
+var userName = prompt('What is your name?');
+var greet = 'Hello, /n' + userName;
+document.write(greet);
+
+var userAge = Number(prompt('what is your age?'));
+var nextAge = userAge + 1;
+document.write('soon you shall be %d' + userAge);
